@@ -16,6 +16,7 @@ console.log("Triangle field with base a: " + a + " and height h: " + h + " is eq
 var a = prompt("Enter first value");
 var b = prompt("Enter second value");
 var value = (a * a) - (2 * a * b) - (b * b);
+alert("The result is: " + value);
 console.log("The result is: " + value);
 
 if (value>0) {
